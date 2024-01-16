@@ -13,6 +13,6 @@ class Solution:
             result += word1[min_len:]
         elif min_len<len_word2:
             result += word2[min_len:]
-        print(result)
+        
         return result
     
